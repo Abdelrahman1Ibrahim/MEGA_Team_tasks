@@ -3,88 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Mega|Team</title>
-    <style>
-        .task{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        p{
-            text-align: center;
-        }
-        th{
-            padding: 10px;
-        }
-        td{
-            padding: 10px;
-        }
-        img{
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-        }
-        table{
-            outline: none;  
-        }
-        th,td{
-            border: 2px solid #ddd;
-        }
-    </style>
+  <style>
+ *{
+   font-family:Arial, Helvetica, sans-serif;
+   text-align: center;
+  }
+
+  table{
+    border-spacing: 0;
+    margin: auto;
+    width: 500px;
+  
+  } p{
+   
+    width: 500px;
+    margin-inline: auto;
+  }
+td{
+  border: 1px solid black;
+  padding: 3px;
+}
+  </style>
+ 
 </head>
 <body>
-    <div class="task">
-        <h1>
-            I am Abdelrahman Ibrahim Maarouf
-        </h1>
-        <p>
-            I am a Student learning web development , and I love programming , this is my simple personal page
-        </p>
-        <img src="R.jpeg" alt="image">
-        <h2>
-            My personal info
-        </h2>
-        <table >
-            <thead>
-                <th >Information</th>
-                <th >Details</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td >
-                        Name
-                    </td>
-                    <td>
-                        Abdelrahman Ibrahim Maarouf
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Age
-                    </td>
-                    <td>
-                        20 years old
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Hobbies
-                    </td>
-                    <td>
-                        programming , foodball
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Occupation
-                    </td>
-                    <td>
-                        MU
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+     <h1>
+      Hello , I am Abdo
+     </h1> 
+     <p>
+      I am a Student Learning Web devlopment , and I love programing 
+     </p>
+     <div>
+      <img src="R.jpeg" alt="img" width="200px" height="200px" style="border-radius: 50%;">
+     </div>
+     <h2>
+      My Personal Information
+     </h2>
+     <table  >
+    <thead>
+        <td>
+          Info
+        </td>
+        <td style="border-left: none;">
+          Details
+        </td>
+      </thead>
+      <tbody >
+        <tr>
+          <td style="border-block: none">
+            Name
+          </td>
+          <td style="border-block: none; border-left: none;">
+            Abdo Maarouf
+          </td>
+        </tr>
+        <tr>
+          <td >
+            Age
+          </td>
+          <td style="border-left: none;">
+            20 Years Old
+          </td>
+        </tr>
+        <tr>
+          <td style=" border-block: none;"> 
+           Hobbies
+          </td>
+          <td style="border-left: none; border-block: none;">
+            Programming,Football , Reading
+          </td>
+        </tr>
+        <tr>
+          <td>
+           Occupation
+          </td>
+          <td style="border-left: none;">
+           MU
+          </td>
+        </tr>
+        <tr>
+          <td style="border-top: none;">
+          <a href="./Home.html">Back To Home</a>
+          </td>
+          <td style="border-left: none;  border-top: none;">
+           <a href="./contactUs.html">Contact With me</a>
+          </td>
+        </tr>
+      </tbody>
+     </table>
 </body>
 </html>
